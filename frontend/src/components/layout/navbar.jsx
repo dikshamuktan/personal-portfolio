@@ -7,12 +7,9 @@ export default function Navbar() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <nav className="bg-white dark:bg-gray-900 shadow-md p-4">
+      <nav className="text-white dark:bg-gray-900 shadow-md p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <Link
-            to="/"
-            className="text-xl font-bold text-gray-800 dark:text-white"
-          >
+          <Link to="/" className="text-xl font-bold dark:text-white">
             Diksh@
           </Link>
           <ul className="hidden md:flex space-x-6">
@@ -24,7 +21,7 @@ export default function Navbar() {
               <li key={name}>
                 <Link
                   to={path}
-                  className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 cursor-pointer"
+                  className=" dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 cursor-pointer"
                 >
                   {name}
                 </Link>
