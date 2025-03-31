@@ -1,5 +1,6 @@
 import { Github, Instagram, Mail } from "lucide-react";
 import Slider from "../components/ui/slider";
+
 export function LandingPage() {
   return (
     <div className="flex flex-col items-center gap-11 justify-center">
