@@ -11,7 +11,12 @@ import vite from "../../assets/images/vite.png";
 
 function Slider() {
   return (
-    <div>
+    <div className="container flex gap-6 flex-col">
+      <div className="text-5xl font-bold justify-center flex">
+        <span className="bg-gradient-to-r from-blue-400 to-purple-300 via-amber-600 bg-clip-text text-transparent">
+          What I work with
+        </span>
+      </div>
       <div className="flex gap-9 ">
         <label className="flex items-center text-md gap-1">
           <img className="w-10 h-10" src={html} />
