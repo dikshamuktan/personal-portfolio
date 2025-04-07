@@ -1,2 +1,10 @@
 @import "tailwindcss";
 /* @import "bootstrap/dist/css/bootstrap.min.css"; */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -9,7 +9,10 @@ export default function Navbar() {
     <div className={darkMode ? "dark" : ""}>
       <nav className="text-white  shadow-md p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <Link to="/" className="text-xl text-white font-bold dark:text-white">
+          <Link
+            to="/"
+            className="stylefont text-2xl text-white font-bold dark:text-white"
+          >
             Diksh@
           </Link>
           <ul className="hidden md:flex space-x-6">
