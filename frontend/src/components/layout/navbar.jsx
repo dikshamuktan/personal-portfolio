@@ -15,7 +15,7 @@ export default function Navbar() {
           >
             Diksh@
           </Link>
-          <ul className="hidden md:flex space-x-6">
+          <ul className=" hidden md:flex space-x-6">
             {[
               { name: "About", path: "/about" },
               { name: "My Work", path: "/work" },

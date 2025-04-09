@@ -37,7 +37,7 @@ export function LandingPage() {
             </div>
             <div className="flex flex-col text-center items-center mt-16">
               <h1 className="stylefont text-4xl font-bold">Diksh@ Muktan</h1>
-              <p className="text-2xl">I'm a Full Stack Developer fron Nepal</p>
+              <p className="text-2xl">I'm a Full Stack Developer from Nepal</p>
             </div>
           </div>
         </div>
