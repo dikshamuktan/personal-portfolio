@@ -6,6 +6,7 @@ import LandingPage from "./pages/landing";
 import AboutPage from "./pages/about";
 import { Link } from "react-router-dom";
 import MyWorkPage from "./pages/myWork";
+import ContactPage from "./pages/contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/work" element={<MyWorkPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );
