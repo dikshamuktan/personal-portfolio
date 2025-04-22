@@ -24,13 +24,13 @@ const images = [
 
 function Slider() {
   return (
-    <div className="overflow-hidden w-ful py-2">
+    <div className="overflow-hidden w-full py-2">
       <h2 className="text-4xl font-bold text-center text-white ">
-        <span className="bg-gradient-to-r from-blue-400 to-purple-300 via-amber-600 bg-clip-text text-transparent">
+        <span className="stylefont font-bold bg-gradient-to-r from-blue-400 to-purple-500 via-yellow-50 bg-clip-text text-transparent">
           What I Work With
         </span>
       </h2>
-      <div className="relative container mt-6 flex items-center">
+      <div className="relative container mt-3 flex items-center">
         <div className="flex w-max animate-scroll gap-3">
           {[...images, ...images].map((item, index) => (
             <div

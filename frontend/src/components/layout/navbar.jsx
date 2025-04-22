@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Moon, Sun } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Github, Instagram, Mail } from "lucide-react";
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,16 +31,23 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="p-2 bg-gray-200 dark:bg-gray-800 rounded-md"
-          >
-            {darkMode ? (
-              <Sun className="text-yellow-400" />
-            ) : (
-              <Moon className="text-gray-700" />
-            )}
-          </button>
+          <div className="flex justify-end  p-2 gap-3">
+            <a
+              className="border border-gray-600 p-1 rounded-md"
+              href="https://github.com/dikshamuktan?tab=overview&from=2024-12-01&to=2024-12-31"
+            >
+              <Github />
+            </a>
+            <a className="border border-gray-600 p-1 rounded-md" href="">
+              <Mail />
+            </a>
+            <a
+              className="border border-gray-600 p-1 rounded-md"
+              href="https://www.instagram.com/l.diksha/"
+            >
+              <Instagram />
+            </a>
+          </div>
         </div>
       </nav>
     </div>
