@@ -1,4 +1,7 @@
 import Slider from "../components/ui/slider";
+import AboutPage from "./about";
+import ContactPage from "./contact";
+import MyWorkPage from "./myWork";
 
 export function LandingPage() {
   return (
@@ -36,6 +39,18 @@ export function LandingPage() {
       </div>
       <div>
         <Slider />
+      </div>
+
+      <div>
+        <div className="card">
+          <AboutPage />
+        </div>
+        <div className="card">
+          <MyWorkPage />
+        </div>
+        <div className="card">
+          <ContactPage />
+        </div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 export function ContactPage() {
   const notify = () => toast("Message send successfuly!", {});
   return (
-    <div className="container  h-[700px] flex justify-center ">
+    <div className="w-full h-[700px] flex justify-center ">
       <div className="relative w-full justify-center flex ">
         <img
           className="absolute h-full w-full rounded-xl opacity-40  object-cover right-0 bottom-0 "

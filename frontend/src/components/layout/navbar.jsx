@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <nav className="text-white  shadow-md p-4">
+      <nav className="text-white shadow-md p-4">
         <div className="container mx-auto flex justify-between items-center">
           <Link
             to="/"

@@ -7,6 +7,7 @@ import AboutPage from "./pages/about";
 import { Link } from "react-router-dom";
 import MyWorkPage from "./pages/myWork";
 import ContactPage from "./pages/contact";
+import Footer from "./components/layout/footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
         <Route path="/work" element={<MyWorkPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
